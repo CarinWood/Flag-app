@@ -11,7 +11,7 @@ export default function Search() {
 
         <input 
             className={styles.input}
-            placeholder="Brazil ... " 
+            placeholder="Type in code i.e. SE ... " 
             onChange={e => setName(e.target.value)} 
         />
 

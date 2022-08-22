@@ -8,7 +8,7 @@ const GET_COUNTRY = gql`
             capital
             currency
             emoji
-            # continent
+            code
              languages {
                  name
              }

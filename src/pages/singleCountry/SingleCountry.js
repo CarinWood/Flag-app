@@ -17,6 +17,7 @@ export const SingleCountry = () => {
           {data && <div className={styles.flag}>{data.country.emoji}</div>}
           {data && <div className={styles.capital}>Capital: {data.country.capital}</div>}
           {data && <div className={styles.currency}>Currency: {data.country.currency}</div>}
+          {data && <div className={styles.currency}>Code: {data.country.code}</div>}
           
           {data &&
           <ul>

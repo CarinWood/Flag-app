@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className={styles.nav}>
         <Link to="/search" className={styles.search}>Search Country<FcSearch className={styles.icon}/></Link>
         <Link to="/"><h1 className={styles.countries}>List of Countries</h1></Link>
-        <Link to="/" className={styles.game}>Flag Game <IoGameControllerOutline className={styles.icon}/></Link>
+        <Link to="/game" className={styles.game}>Flag Game <IoGameControllerOutline className={styles.icon}/></Link>
     </nav>
   )
 }
