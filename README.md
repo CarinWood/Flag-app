@@ -5,6 +5,7 @@ Install:
 npm i @apollo/client
 npm i graphql
 npm i react-router-dom
+npm install react-icons --save
 
 ```
 

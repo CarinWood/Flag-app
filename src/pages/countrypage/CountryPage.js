@@ -9,19 +9,16 @@ export const CountryPage = () => {
   const {error, loading, data } = useCountries()
 
     if(loading) return <div>Spinner...</div>
-    if(error) return <div>Something went wrong</div>
+    if(error) return <div>Something went wrong ...</div>
 
   return (
     <div className={styles.wrapper}>
 
         {data.countries.map(country => (
           <Link to={country.code} className={styles.card}>
-            <div>{country.name}<span>{country.emoji}</span></div>
-            <div>Capital: {country.capital}</div>
-            <div>Currency: {country.currency}</div>
+            <div className={styles.name}>{country.name}<span className={styles.flag}>{country.emoji}</span></div>
           </Link>
         ))}
-        CountryPage
        
     </div>
   )

@@ -1,0 +1,15 @@
+.wrapper {
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    font-size: 100px;
+}
+
+.countryname {
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}

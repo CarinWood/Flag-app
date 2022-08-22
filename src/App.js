@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './navbar/Navbar';
 import { CountryPage } from './pages/countrypage/CountryPage';
 import { Routes, Route } from 'react-router-dom'
-import { SingelCountry } from './pages/SingelCountry';
+import { SingleCountry } from './pages/singleCountry/SingleCountry';
 import Search from './pages/search/Search';
 
 
@@ -13,7 +13,7 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path="/" element={<CountryPage/>} />
-      <Route path="/:code" element={<SingelCountry/>} />
+      <Route path="/:code" element={<SingleCountry/>} />
       <Route path="/search" element={<Search/>} />
 
       </Routes>
