@@ -1,0 +1,11 @@
+.nav {
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(69, 144, 169);
+    position: absolute;
+    top: 0;
+}
+
+.countries {
+    color: white;
+}
