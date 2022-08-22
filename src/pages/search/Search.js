@@ -7,8 +7,15 @@ export default function Search() {
 
   return (
     <div className={styles.searchField}>
-        <input placeholder="Brazil ... " onChange={e => setName(e.target.value)} />
-        <button>Search</button>
+
+
+        <input 
+            className={styles.input}
+            placeholder="Brazil ... " 
+            onChange={e => setName(e.target.value)} 
+        />
+
+        <button className={styles.button}>Search</button>
 
     </div>
   )
