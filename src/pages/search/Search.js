@@ -1,17 +1,12 @@
 import { useState } from "react"
-import { gql, useLazyQuery } from "@apollo/client"
+import styles from './search.module.css'
 
-const GET_FLAG_BY_NAME = gql`
-    query GetFlagByName($name: String!){
-        
-    }
-`
 
 export default function Search() {
     const [name, setName] = useState('')
 
   return (
-    <div>
+    <div className={styles.searchField}>
         <input placeholder="Brazil ... " onChange={e => setName(e.target.value)} />
         <button>Search</button>
 
