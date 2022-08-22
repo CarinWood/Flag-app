@@ -4,10 +4,14 @@ import { gql, useQuery } from "@apollo/client";
 const GET_COUNTRY = gql`
     query Country($code: ID!){
          country (code: $code) {
-            name,
-            capital,
-            currency,
+            name
+            capital
+            currency
             emoji
+            # continent
+             languages {
+                 name
+             }
         }
     }
     
