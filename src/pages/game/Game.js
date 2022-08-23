@@ -2,6 +2,8 @@ import styles from './game.module.css'
 
 export const Game = () => {
   return (
-    <div>Game</div>
+    <div className={styles.wrapper}>
+        <h2>Under Construction ...</h2>
+    </div>
   )
 }

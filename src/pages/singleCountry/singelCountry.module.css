@@ -20,3 +20,67 @@
     justify-content: center;
     align-items: center;
 }
+
+.capital, .currency {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(91, 138, 235);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.middle {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ul {
+    margin-top: 50px;
+    width: 200px;
+    height: 90px;
+    border: 1px solid rgb(91, 138, 235);
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.li {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: "Nunito"M
+}
+
+.laguageTitle {
+    background-color: white;
+    width: 110px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -25%;
+    left: 6%;
+    color: rgb(91, 138, 235);
+   
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.black {
+    color: black;
+    margin-left: 10px;
+    font-size: 18px;
+}
